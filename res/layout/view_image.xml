@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout 
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+	
+	android:gravity="center_horizontal"
+    >
+	
+       <Button android:layout_height="wrap_content"    
+         android:layout_width="wrap_content"    
+         android:id="@+id/btnNDK"    
+         android:text="Begin Img Processing" 
+         android:textSize="20dip" />   
+         
+     <Button android:layout_height="wrap_content"    
+         android:layout_width="wrap_content"    
+         android:id="@+id/btnRestore"    
+         android:text="Restore Original Img" 
+         android:textSize="20dip" /> 
+         
+         <TextView
+        android:id="@+id/imagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip" />
+         
+    <ImageView
+        android:id="@+id/full_image_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+         />
+	<ImageView
+        android:id="@+id/full_image_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+         />
+	<ImageView
+        android:id="@+id/full_image_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+
+         />
+   
+
+    
+	</LinearLayout>
+ 
+</ScrollView> 
